@@ -1,36 +1,174 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# She Can Foundation
 
-## Getting Started
+A modern full-stack NGO website built to support and empower women through education, mentorship, leadership development, skill-building programs, and community engagement.
 
-First, run the development server:
+## Live Demo
+
+https://she-can-foundation-steel.vercel.app/
+
+---
+
+## Features
+
+### Public Website
+
+* Modern responsive UI
+* Animated Hero Section
+* Interactive About Section
+* Impact Statistics Section
+* Volunteer Registration Form
+* Premium Aceternity UI Effects
+* Mobile Friendly Design
+
+### Volunteer Management
+
+* Volunteer registration form
+* Data stored in MongoDB
+* Real-time submission tracking
+
+### Admin Panel
+
+* Admin Signup
+* Admin Login
+* Secure Admin Dashboard
+* Search Volunteers
+* Filter by Status
+* Approve Volunteers
+* Reject Volunteers
+* Delete Volunteer Applications
+
+### Admin Management
+
+* View All Registered Admins
+* Delete Admin Accounts
+* Premium Interactive Card Interface
+
+---
+
+## Tech Stack
+
+### Frontend
+
+* Next.js 16
+* React
+* Tailwind CSS
+* Aceternity UI
+* Framer Motion
+
+### Backend
+
+* Next.js API Routes
+* MongoDB Atlas
+* Mongoose
+
+### Deployment
+
+* Vercel
+
+---
+
+## Project Structure
+
+```bash
+src/
+├── app/
+│   ├── about/
+│   ├── volunteer/
+│   ├── admin/
+│   ├── api/
+│   └── page.js
+│
+├── components/
+│   ├── Hero.jsx
+│   ├── About.jsx
+│   ├── Impact.jsx
+│   ├── VolunteerForm.jsx
+│   ├── Navbar.jsx
+│   └── Footer.jsx
+│
+├── models/
+│   ├── Admin.js
+│   └── Submission.js
+│
+└── lib/
+    └── mongodb.js
+```
+
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Ansh-Kumar-296/she-can-foundation.git
+```
+
+Navigate into the project:
+
+```bash
+cd she-can-foundation
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Create a `.env.local` file:
+
+```env
+MONGODB_URI=your_mongodb_connection_string
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```txt
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## Admin Routes
 
-To learn more about Next.js, take a look at the following resources:
+```txt
+/admin/login
+/admin/signup
+/admin
+/admin/manage-admins
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Future Enhancements
 
-## Deploy on Vercel
+* Email Notifications
+* Role-Based Access Control
+* Volunteer Profile Dashboard
+* Event Management System
+* Analytics Dashboard
+* Donation Portal
+* Multi-Admin Permissions
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Author
+
+**Ansh Kumar**
+
+B.Tech CSE (AI & ML)
+
+GitHub: https://github.com/Ansh-Kumar-296
+
+---
+
+## License
+
+This project is developed for educational and social impact purposes.
